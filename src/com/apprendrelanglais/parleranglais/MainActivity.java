@@ -1,11 +1,15 @@
 package com.apprendrelanglais.parleranglais;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.widget.*;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+//using this for layouts
+//http://developer.android.com/training/implementing-navigation/nav-drawer.html
 
 public class MainActivity extends Activity {
 	
@@ -45,5 +49,12 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    
+	private void selectItem(int position){
+		Fragment fragment = new TitleFragement;
+		
+		
+	}
+
     
 }
