@@ -2,7 +2,37 @@
 <resources>
 
     <string name="app_name">ParlerAnglais</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="action_settings">Paramètres</string>
+    
+    <!-- Array for the DrawerLayout for main navi  -->
+    <!-- Remember to replace these titles with French!  -->
+    <string-array name="phraseMainTitles" >
+		<item>Les Endroits</item>
+		<item>L\'Itinéraire</item>
+		<item>Les Salutations</item>
+		<item>Rechercher</item>
+    </string-array>
+    
+    <string-array name="phrasePlacesTitles" >
+		<item>L\'Aéroport</item>
+		<item>Le Café</item>
+		<item>La Gare du train</item>
+		<item>L\'Hôtel</item>
+		<item>La Location des voitures</item>
+		<item>La Maison</item>
+		<item>Le Parc</item>
+		<item>La Poste</item>
+		<item>Les Sites des touristes</item>
+		<item>Le Taxi</item>
+		<item>Le Restaurant</item>
+		<item>La Ville</item>
+    </string-array>
+    
+    <string-array name="phraseGreetingTitles" >
+		<item>Les Affaires</item>
+		<item>Informel</item>
+		<item>Formel</item>
+		<item>Affection</item>
+    </string-array>
+    
 </resources>
