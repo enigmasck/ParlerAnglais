@@ -12,8 +12,5 @@ public class DrawerItemClickListener implements ListView.OnItemClickListener{
         selectItem(position);
     }
 	
-	private void selectItem(int position){
-		
-	}
 
 }
